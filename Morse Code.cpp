@@ -4,15 +4,8 @@
 //
 //  Created by LIUYiling on 07/05/15.
 //  Copyright (c) 2015 LIUYiling. All rights reserved.
-//
+//  Problem: https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=427
 
-//
-//  main.cpp
-//  NoChange
-//
-//  Created by LIUYiling on 05/05/15.
-//  Copyright (c) 2015 LIUYiling. All rights reserved.
-//
 
 #include <iostream>
 #include <cstdio>
