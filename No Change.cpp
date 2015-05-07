@@ -12,7 +12,7 @@
 using namespace std;
 
 bool bingo(int low,int up,int n, int m,int x[5],int total){
-    if (total == 0) return true;
+    if (total == 0) return true; //Don't forget this occasion.
     else if (n == 1) {
         if (  (total % x[m-1] == 0) && (total / x[m-1]<=up) && (total / x[m-1]>=low) ) 
             return true;
@@ -29,7 +29,7 @@ bool bingo(int low,int up,int n, int m,int x[5],int total){
             int new_total = total - i*x[m-n];
             int new_low = ( new_total - 1 )/rest + 1;
             int new_up = new_total / x[m-n+1];
-            new_up = (new_up < i) ? new_up : i ;
+            new_up = (new_up < i) ? new_up : i ; //get the new upper bound.
             flag = bingo(new_low,new_up,n-1,m,x,new_total);
             if (flag) {
                 return true;
