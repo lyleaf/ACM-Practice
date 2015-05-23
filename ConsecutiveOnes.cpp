@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 LIUYiling. All rights reserved.
 //  https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1512
 
+Comment: 使用bit
+
 #include <functional>
 #include <iostream>
 #include <stdio.h>
