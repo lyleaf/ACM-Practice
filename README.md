@@ -3,7 +3,11 @@ C'est pour un projet de concours de notre école Télécom Paristech.
 
 http://pierre.senellart.com/enseignement/2014-2015/inf280/
 
-cd ./Library/Developer/Xcode/DerivedData/
+These question are from the 2 sites:
+
+ACM-ICPC live archive:  https://icpcarchive.ecs.baylor.edu/index.php
+
+UVa Online Judge: http://uva.onlinejudge.org/index.php
 
 ConsecutiveOnes DFS
 
