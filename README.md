@@ -12,3 +12,5 @@ UVa Online Judge: http://uva.onlinejudge.org/index.php
 ConsecutiveOnes DFS
 
 Men at Work     BFS
+
+WiFi            Bisection
