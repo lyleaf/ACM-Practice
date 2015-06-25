@@ -14,3 +14,5 @@ ConsecutiveOnes DFS
 Men at Work     BFS
 
 WiFi            Bisection
+
+Buy or Build    Used bit operation to get combinaisons
