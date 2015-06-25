@@ -15,7 +15,8 @@ int main(){
         //把两个公司的子公司的数据分别读入两个vector中.
         //vector的等于号会重新copy一个vector.
     }
-    bool wins = play(v, false) || play(w, true); printf("Case %d: %s\n", ncase,wins ? "Takeover Incorporated" : "Buyout Limited");
+    bool wins = play(v, false) || play(w, true); 
+    printf("Case %d: %s\n", ncase,wins ? "Takeover Incorporated" : "Buyout Limited");
 
     return 0;
 }
