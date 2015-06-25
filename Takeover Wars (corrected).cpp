@@ -10,7 +10,7 @@ int main(){
             long long t;
             scanf("%lld", &t); v[c].push_back(t);
         }
-        sort(v[c].begin(), v[c].end());
+        sort(v[c].begin(), v[c].end());//由小到大
         w[c] = v[c]; 
         //把两个公司的子公司的数据分别读入两个vector中.
         //vector的等于号会重新copy一个vector.
