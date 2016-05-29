@@ -58,5 +58,5 @@ class Solution(object):
                 if (i.aa-a1.b)*(i.aa-a1.c)<=0:
                     return True
         if a1.aa == 0 and a1.c == 0:
-            return True
+            return True 
         return False
