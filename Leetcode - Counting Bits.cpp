@@ -9,6 +9,13 @@ If I want to toggle between 0 and 1, I can use
 int flag = 1;
 flag = !flag;
 
+flag ^= 1;
+
+flag = 1-flag;
+
+int arr[] = {1,0};
+x = arr[x];
+
 
 */
 class Solution {
