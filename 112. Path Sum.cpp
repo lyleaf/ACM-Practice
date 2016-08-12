@@ -30,6 +30,9 @@ public:
 };
 
 /*
+用root->right == root->left来判断是否当前是叶子结点
+如果不是，则分别向左右重新进行DFS.
+如果叶子结点不是，只要不返回false就好了。而不需要专门用一个flag去存储。
 */
 bool hasPathSum(TreeNode* root, int sum) {
     if(root == NULL)  return false;
